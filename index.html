@@ -1,222 +1,896 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Page Title</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
-<link rel="stylesheet" href="style.css">
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-	</head>
-	<body> 
-	<div class="info">
-		<a href="info.html"><ion-icon name="information"></ion-icon></a>
-	</div>
-	<div class="container">
-		<img src="img/profil.png">
-	<h3>HAMATECH - HAMASTORE</h3><br />
-	<p>IOS-ANDROID</p>
-	</div>
-	<br>
-	<br> 
-		<ul class="ul">
-		
-		  <li class="li">
- 			 <img src="img/profil.png">
-  				<div class="text">
-					<h1>HAMASTORE</h1>
-   				 <span>Web App Download</span>
- 			 </div>
-		  <div class="get"><a href="HAMA STORE.mobileconfig">GET</a>
-</div>
-</li><div class="br"></div>
+<html lang="en">
 
-		  <li class="li">
- 		<img src="img/videostar.png">
-  				<div class="text">
-					<h1>VideoStar</h1>
-   				 <span>Code working</span>
- 			 </div>
-		  <div class="get"><a href="itms-services://?action=download-manifest&url=https://hamastore.netlify.app//plist/videostarold.plist">GET</a>
-</div>
-</li><div class="br"></div>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#2196f3">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="shortcut icon" href="http://www.rebostore.cf/icon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="http://www.rebostore.cf/icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="icon.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="icon.png" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="Free Store For IOS and Android">
+    <meta name="twitter:image:src" content="icon.png">
+    <meta name="description" content="Free Store For IOS and Android">
+    <title>Hama Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="x/framework7/css/framework7.bundle.min.css">
+    <link rel="stylesheet" href="x/css/icons.css">
+    <link rel="stylesheet" href="x/css/app.css">
+    <link rel="stylesheet" href="x/css/style.css">
+</head>
 
-		  <li class="li">
- 	<img src="img/videostarpro.png">
-  				<div class="text">
-				 <h1>VideoStarPro</h1>
-   				 <span>All future unlock</span>
- 			 </div>
-		  <div class="get"><a href="itms-services://?action=download-manifest&url=https://hamastore.netlify.app//plist/videostarpro.plist">GET</a>
-</div>
-</li><div class="br"></div>
+<body>
+    <div class="popup">
+        <div class="popup-content">
+            <h1>✖</h1>
+            <center>
+                <img style="margin-top: 5%; border-radius: 20%;" width="100" class="elevation-12 animated zoomIn" src="icon.png">
+                <br><br>
+                <div class="item-text">Download HamaStore 📥</div>
+                <p> حەمە ستۆر دابەزێنە 📥 </p>
+                <p>داخلی تێلیگرامان ببن بۆ ئەوەی ئاداری نوێ کردنەوەی هەموو ئەپەکان ببن</p>
+                <p>👇</p>
+                <a onclick="location='https://t.me/hamatechh'" href="#"><span style="color: #32afed;">join Telegram</span> </a>
+            </center>
+            <br>
+            <a class="button1" role="button" onclick="location='http://hamastore.netlify.app/ReboStore.mobileconfig'" href="#">Download</a>
+        </div>
+    </div>
+    </div>
+    <div id="app">
+        <div class="statusbar"></div>
+        <div class="panel panel-left panel-cover theme-dark">
+            <div class="view">
+                <div class="page">
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="title">Left Panel</div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+                        <div class="block">Left panel content goes here</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-right panel-reveal theme-dark">
+            <div class="view">
+                <div class="page">
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="title">Right Panel</div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+                        <div class="block">Right panel content goes here</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="views tabs safe-areas">
+            <div class="toolbar tabbar-labels toolbar-bottom">
+                <div class="toolbar-inner">
+                    <a href="#view-home" class="tab-link tab-link-active">
+                        <i class="icon f7-icons ios-only">home</i>
+                        <i class="icon f7-icons ios-only icon-ios-fill">home_fill</i>
+                        <i class="icon material-icons md-only">home</i>
+                        <span class="tabbar-label">Home</span>
+                    </a>
+                    <a href="#view-iphone" class="tab-link">
+                        <i class="icon f7-icons ios-only">logo_apple</i>
+                        <i class="icon f7-icons ios-only icon-ios-fill">logo_apple</i>
+                        <i class="icon material-icons md-only">logo_apple</i>
+                        <span class="tabbar-label">iphone</span>
+                    </a>
+                    <a href="#view-android" class="tab-link">
+                        <i class="icon f7-icons ios-only">logo_android</i>
+                        <i class="icon f7-icons ios-only icon-ios-fill">logo_android</i>
+                        <i class="icon material-icons md-only">logo_android</i>
+                        <span class="tabbar-label">Android</span>
+                    </a>
+                    <a href="#view-info" class="tab-link">
+                        <i class="icon f7-icons ios-only">lightbulb</i>
+                        <i class="icon f7-icons ios-only icon-ios-fill">lightbulb</i>
+                        <i class="icon material-icons md-only">lightbulb</i>
+                        <span class="tabbar-label">info</span>
+                    </a>
+                </div>
+            </div>
+            <div id="view-home" class="view view-main tab tab-active">
+                <div class="page" data-name="home">
+
+                    <div class="navbar">
+
+                        <div class="navbar-inner navbar-inner-large sliding">
+                            <div class="right">
+                                <a href="/new" class="f7-icons">bell_fill</a>
+                                <span class="icon-button__badge">4</span>&nbsp;&nbsp;
+                                <a href="javascript:window.location.reload(true)" class="f7-icons rotate">reload</a>
+                            </div>
+                            <div class="left">
+                                <script>
+                                    var today = new Date();
+                                    var dd = String(today.getDate()).padStart(2, '0');
+                                    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                                    var yyyy = today.getFullYear();
+
+                                    today = dd + '/' + mm + '/' + yyyy;
+                                    document.write(today);
+                                </script>
+                            </div>
+                            <div class="title-large">
+                                <div class="title-large-text">Home</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+                        <center>
+                            <img style="margin-top: 5%; border-radius: 20%;" width="200" class="elevation-12 animated zoomIn" src="icon.png">
+                        </center>
+                        <h1 class="header">Hama Store</h1>
+                        <div class="elevation-12 list inset media-list">
+                            <ul>
+                                <li>
+                                    <a href="/theming" class="item-content item-link">
+                                        <div class="item-media">
+                                            <i slot="media" class="f7-icons">gear</i>
+                                        </div>
+                                        <div class="item-inner">
+                                            <div class="item-title">Theming</div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!---<div class="list inset media-list elevation-12">
+                            </ul>
+                        </div>
+                        <div class="list inset media-list elevation-12">
+                            <ul>
+                                <li class="media-item">
+                                    <a href="#" onclick="location='code.html'" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <div><img src="img/code.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            </div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">
+Vs Working Codes</div>
+</div>                                               <div class="item-text">working vs codes</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                               <li class="media-item">
+                                    <a onclick="location='tiktok/index.html'" href="#" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <div><img src="img/tiktok.png" class="appiconx"></div>
+                                            </div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Tiktok Video Downloader</div>
+                                                </div>
+                                                <div class="item-text">دابەزاندنی ڤیدیۆ تیکتۆک بێ لۆگۆ</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>--->
+                    </div>
+                </div>
+            </div>
+            <div id="view-info" class="view tab">
+                <div class="page" data-name="info">
+                    <div class="navbar">
+                        <div class="navbar-inner sliding">
+                            <div class="title-large">
+                                <div class="title-large-text">info</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+                        <div class="block-title" style="padding-top: 30px;">Contact Us:</div>
+                        <div class="list inset elevation-12 media-list">
+                            <ul>
+                                <li>
+                                    <a href="https://t.me/hamastoree" class="external item-link item-content">
+                                        <div class="item-media"><i slot="media" width="50" class="icon f7-icons color-blue">paper_plane_fill</i></div>
+                                        <div class="item-inner">
+                                            <div class="item-title-row">
+                                                <div class="item-title">Telegram</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://t.me/hamastoree" class="external item-link item-content">
+                                        <div class="item-media"><i slot="media" width="50" class="icon f7-icons color-red">paper_plane_fill</i></div>
+                                        <div class="item-inner">
+                                            <div class="item-title-row">
+                                                <div class="item-title">Telegram Channel</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.snapchat.com/add/hama-tech?share_id=49ODA9UDSOuExZ6E3X7iXg&locale=en_US" class="external item-link item-content">
+                                        <div class="item-media"><i slot="media" width="50" class="icon f7-icons color-gray">logo_instagram_fill</i></div>
+                                        <div class="item-inner">
+                                            <div class="item-title-row">
+                                                <div class="item-title">instagram</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.snapchat.com/add/hama-tech?share_id=49ODA9UDSOuExZ6E3X7iXg&locale=en_US" class="external item-link item-content">
+                                        <div class="item-media"><i slot="media" width="50" class="icon f7-icons color-white">money_dollar</i></div>
+                                        <div class="item-inner">
+                                            <div class="item-title-row">
+                                                <div class="item-title">Snapchat</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="block-title" style="padding-top: 30px;">
+                            Untrusted enterprise developer
+                        </div>
+                        <div class="space elevation-12 list inset accordion-list">
+                            <ul>
+                                <li class="accordion-item">
+                                    <a class="item-link">
+                                        <div class="item-content" accordionitem="true">
+                                            <div class="item-media">
+                                                <i class="icon f7-icons color-grey">gear_alt_fill</i>
+                                            </div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div style="font-weight: 600;" class="item-title">
+                                                        Fix
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="accordion-item-content" style="" aria-hidden="true">
+                                        <div class="block">
+                                            <p>Settings > General > Info > VPN and Device Management > Enterprise App > Select Developer Profile > Set to "Trusted"
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="view-iphone" class="view tab">
+                <div class="page">
+                    <div class="navbar">
+                        <div class="navbar-inner sliding">
+                            <div class="title-large">
+                                <div class="title-large-text">iphone</div>
+                            </div>
+                            <div class="subnavbar">
+                                <form data-search-in=".item-title" data-search-container=".list" class="searchbar searchbar-init">
+                                    <div class="searchbar-inner">
+                                        <div class="searchbar-input-wrap">
+                                            <input type="search" placeholder="Search">
+                                            <i class="searchbar-icon"></i>
+                                            <span class="input-clear-button"></span>
+                                        </div>
+                                        <span class="searchbar-disable-button if-not-aurora">Cancel</span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+                        <div class="searchbar-backdrop"></div>
+                        <div class="elevation-12 list media-list inset searchbar-found">
+                            <ul>
+                                <li class="media-item">
+                                    <a href="itms-services://?action=download-manifest&url=https://hamastore.netlify.app//plist/videostarold.plist" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/videostar.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">VideoStar++</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                    <div class="chip-label">8.3.2</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">97MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a href="itms-services://?action=download-manifest&url=https://hamastore.netlify.app//plist/videostarold.plist" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/videofx.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">VideoFX Live</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                    <div class="chip-label">vlast</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">162MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a href="/esign" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/esign.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">ESign</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                    <div class="chip-label">153.0</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">110 MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a href="/unc0ver" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/unc0ver.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Unc0ver</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                    <div class="chip-label">6.1.2</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">40 MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a href="/odyssey" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/odyssey.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">OdysseyJB</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                    <div class="chip-label">1.3.3</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">21.63MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <li class="media-item">
+                                        <a href="/ppsspp" class="item-link">
+                                            <div class="item-content">
+                                                <div class="item-media">
+                                                    <img src="img/ppsspp.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                                <div class="item-inner">
+                                                    <div class="item-title-row">
+                                                        <div class="item-title">PPSSPP</div>
+                                                    </div>
+                                                    <div class="chip">
+                                                        <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                        <div class="chip-label">1.10.3-1201</div>
+                                                    </div>
+                                                    <div class="chip">
+                                                        <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                        <div class="chip-label">16.53 MB</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </li>
+                                <li class="media-item">
+                                    <a href="/procam" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/procam.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">ProCam</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                    <div class="chip-label">13.6.6</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">23.9 MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a href="/bolt" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/bolt.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Bolt</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                    <div class="chip-label">1.8</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">15.12 MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a href="/tiktok" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/tiktok.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">TikTok LRD</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                    <div class="chip-label">23.5.0</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">109MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a href="/pubg" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/pubg.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Pubg Global</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                    <div class="chip-label">last</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">2.1GB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a href="/gta" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/gta.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Gta-San</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                    <div class="chip-label">last</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">1.5GB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a href="/org" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/org.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">ORG 2020 HACK</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                    <div class="chip-label">1.1.5</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">58MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a href="/8ball" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/8ball.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">8 Ball Pool</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                    <div class="chip-label">5.2</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">83MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a href="/minecraft" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/minecraft.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">minecraft</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                    <div class="chip-label">last</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">448.3MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a href="/Kinemaster" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/kinemaster.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">kinemaster++</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                    <div class="chip-label">last</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">113MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a href="/appcake" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/appcake.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">App Cake</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                    <div class="chip-label">app store</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a href="/picsart" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/picsart.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Picsart Pro</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">gear</i></div>
+                                                    <div class="chip-label">19.5</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">176.5MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="view-android" class="view tab">
+                <div class="page">
+                    <div class="navbar">
+                        <div class="navbar-inner sliding">
+                            <div class="title-large">
+                                <div class="title-large-text">Android</div>
+                            </div>
+                            <div class="subnavbar">
+                                <form data-search-in=".item-title" data-search-container=".list" class="searchbar searchbar-init">
+                                    <div class="searchbar-inner">
+                                        <div class="searchbar-input-wrap">
+                                            <input type="search" placeholder="Search">
+                                            <i class="searchbar-icon"></i>
+                                            <span class="input-clear-button"></span>
+                                        </div>
+                                        <span class="searchbar-disable-button if-not-aurora">Cancel</span>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="page-content">
+                        <div class="searchbar-backdrop"></div>
 
 
- <li class="li">
- 	<img src="img/snapchat.png">
-  				<div class="text">
-				 <h1>Snapchat Maybe</h1>
-   				 <span>Ip band fix</span>
- 			 </div>
-		  <div class="get"><a href="itms-services://?action=download-manifest&url=https://hamastore.netlify.app//plist/snapchatmaybe.plist">GET</a>
-</div>
-</li><div class="br"></div>
 
+                        <div class="elevation-12 list media-list inset searchbar-found">
+                            <ul>
+                                <li class="media-item">
+                                    <a onclick="location='https://up-ipa.com/uploads/up-ipa.comTiktok-.apk'" href="#" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/tiktok.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Tiktok++</div>
+                                                </div>
 
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">131.8MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a onclick="location='https://up-ipa.com/uploads/up-ipa.comSnapchat.apk'" href="#" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/snapchat.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Snapchat</div>
+                                                </div>
 
- <li class="li">
- 	<img src="img/ppsspp.png">
-  				<div class="text">
-				 <h1>PPSSPP</h1>
-   				 <span>Gold Premium Unlock</span>
- 			 </div>
-		  <div class="get"><a href="itms-services://?action=download-manifest&url=https://hamastore.netlify.app//plist/ppsspp.plist">GET</a>
-</div>
-</li><div class="br"></div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">86MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a onclick="location='https://up-ipa.com/uploads/up-ipa.comInstagram-_60a41.apk'" href="#" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/instagram.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">instagram++</div>
+                                                </div>
 
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">48MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a onclick="location='https://up-ipa.com/uploads/up-ipa.comAlightmotionPro.apk'" href="#" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/alightmotion.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">AlightMotion Pro</div>
+                                                </div>
 
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">72.2MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a onclick="location='https://up-ipa.com/uploads/up-ipa.comQR-Barcode-Reader-v2-7-3-L-apkpure-com.apk'" href="#" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/QR.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">QR Scanner</div>
+                                                </div>
 
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">5.2MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a onclick="location='https://up-ipa.com/uploads/up-ipa.comKineMasterPro.apk'" href="#" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/kinemaster.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Kinemaster Pro</div>
+                                                </div>
 
- <li class="li">
- 	<img src="img/myip.png">
-  				<div class="text">
-				 <h1>MyIp</h1>
-   				 <span>Find Ip Movbile All</span>
- 			 </div>
-		  <div class="get"><a href="itms-services://?action=download-manifest&url=https://hamastore.netlify.app//plist/myip.plist">GET</a>
-</div>
-</li><div class="br"></div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">111.3MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a onclick="location='https://up-ipa.com/uploads/up-ipa.comCuteCUTPro.apk'" href="#" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/cutecut.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Cutecut Pro</div>
+                                                </div>
 
- <li class="li">
- 	<img src="img/inshot.png">
-  				<div class="text">
-				 <h1>Inshot</h1>
-   				 <span>Inshot Gold Premium</span>
- 			 </div>
-		  <div class="get"><a href="itms-services://?action=download-manifest&url=https://hamastore.netlify.app//plist/inshot.plist">GET</a>
-</div>
-</li><div class="br"></div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">34.4MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a onclick="location='https://up-ipa.com/uploads/up-ipa.comVivaCutPro.apk'" href="#" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/vivacut.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Vivacut Pro</div>
+                                                </div>
 
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">115.3MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a onclick="location='https://up-ipa.com/uploads/up-ipa.comPicsartPro.apk'" href="#" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/picsart.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Picsart Pro</div>
+                                                </div>
 
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">53.5MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media-item">
+                                    <a onclick="location='https://up-ipa.com/uploads/up-ipa.comINShotPro.apk'" href="#" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-media">
+                                                <img src="img/inshot.png" class="appiconx elevation-5 animated zoomIn"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title-row">
+                                                    <div class="item-title">Inshot Pro</div>
+                                                </div>
+                                                <div class="chip">
+                                                    <div class="chip-media bg-color-blue"><i class="icon f7-icons">download</i></div>
+                                                    <div class="chip-label">55.4MB</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="x/framework7/js/framework7.bundle.min.js"></script>
+    <script src="x/js/routes.js"></script>
+    <script src="x/js/app.js"></script>
+    <script src="x/js/page.js"></script>
+    <script type="text/javascript">
+        if (localStorage.getItem('theme')) {
+            $$("body").removeClass('theme-dark').removeClass('theme-light').removeClass('theme-dark-2').removeClass('theme-oled').addClass(localStorage.getItem('theme'));
+        }
+        if (localStorage.getItem('color-theme')) {
+            $$("body").addClass(localStorage.getItem('color-theme'));
+        }
+    </script>
 
- <li class="li">
- 	<img src="img/pubgm.png">
-  				<div class="text">
-				 <h1>Pubg Mobile </h1>
-   				 <span>Anti Band Vip HAMA STORE</span>
- 			 </div>
-		  <div class="get"><a href="itms-services://?action=download-manifest&url=https://hamastore.netlify.app//plist/pubgm.plist">GET</a>
-</div>
-</li><div class="br"></div>
+</body>
 
-
-
-		  <li class="li">
- 		<img src="img/cpu.png">
-  				<div class="text">
-					<h1>Cpu-x</h1>
-   				 <span></span>
- 			 </div>
-        <div class="get"><a href="itms-services://?action=download-manifest&url=https://hamastore.netlify.app//plist/cpu.plist">GET</a>
-</div>
-</li><div class="br"></div>
-
-		  <li class="li">
- 		<img src="img/djaypro.png">
-  				<div class="text">
-					<h1>Djay pro</h1>
-   				 <span>Hack-Android</span>
- 			 </div>
-		  <div class="get"><a href="https://www.mediafire.com/file/irdhs83puy0xs9r/djaypro.hamasade.apk/file">GET</a>
-</div>
-</li><div class="br"></div>
-
-		  <li class="li">
- 		<img src="img/capcut.png">
-  				<div class="text">
-					<h1>Cap cut pro</h1>
-   				 <span>Hack</span>
- 			 </div>
-		  <div class="get"><a href="itms-services://?action=download-manifest&url=https://hamatech.netlify.app//plist/capcut.plist">GET</a>
-</div>
-</li><div class="br"></div>
-
-		  <li class="li">
- 		<img src="img/picsart.png">
-  				<div class="text">
-					<h1>Picsart</h1>
-   				 <span>Hack&Android</span>
- 			 </div>
-		  <div class="get"><a href="https://www.mediafire.com/file/lu93g15wq9ru8os/Picsart.hamasade.apk/file">GET</a>
-</div>
-</li><div class="br"></div>
-
-
-
-  <li class="li">
- 		<img src="img/snapchat.png">
-  				<div class="text">
-					<h1>Snapchat</h1>
-   				 <span>Android&Dark Mode&Emoji Iphone</span>
- 			 </div>
-		  <div class="get"><a href="https://www.mediafire.com/file/q66yn1qstpa27bm/SNAPCHAT-Telegram-%2540HamaSade.apk/file">GET</a>
-</div>
-</li><div class="br"></div>
-
-
-  <li class="li">
- 		<img src="img/alightmotion.png">
-  				<div class="text">
-					<h1>Alight Motion</h1>
-   				 <span>Alight Motion Hack Android</span>
- 			 </div>
-		  <div class="get"><a href="https://www.mediafire.com/file/op4dev2k60t1r10/HamaSade_Alight.apk/file">GET</a>
-</div>
-</li><div class="br"></div>
-
-
-
-<li class="li">
- 		<img src="img/qrbarcode.png">
-  				<div class="text">
-					<h1>qrbarcode</h1>
-   				 <span>ANDROID</span>
- 			 </div>
-		  <div class="get"><a href="https://www.mediafire.com/file/0ww1rvpawgememb/barcode.hamasade.apk/file">GET</a>
-</div>
-</li><div class="br"></div>
-
-
-<li class="li">
- 		<img src="img/capcut.png">
-  				<div class="text">
-					<h1>CapCut</h1>
-   				 <span>ANDROID&Hacked</span>
- 			 </div>
-		  <div class="get"><a href="https://www.mediafire.com/file/4bkz6ixqm03mq1x/Capcut_%2540Hamasade.apk/file">GET</a>
-</div>
-</li><div class="br"></div>
-
-
-
-<li class="li">
- 		<img src="img/inshot.png">
-  				<div class="text">
-					<h1>Inshot</h1>
-   				 <span>ANDROID&Hacked</span>
- 			 </div>
-		  <div class="get"><a href="https://www.mediafire.com/file/un0etevgnv0nq3u/inshot_%2540Hamasade.apk/file">GET</a>
-</div>
-</li><div class="br"></div>
-
-
-<!-- socialmedia-->
-		<div class="ico"><center>
-			<a href="www.tiktok.com/@kaka_haama="><ion-icon name="logo-tiktok"></ion-icon></a>
-		<a href="https://t.snapchat.com/iXUfbrO9"><ion-icon name="logo-snapchat"></ion-icon></a>
-<a href="https://t.me/hamatechh"><ion-icon name="paper-plane"></ion-icon></a></center>
-		  </div>
-		
-		</ul>
-		
-	</body>
 </html>
